@@ -12,7 +12,7 @@ RUN chown -R bitcore:bitcore /home/bitcore
 USER bitcore
 ENV HOME /home/bitcore
 RUN cd /home/bitcore
-RUN bitcore create bitcore-node
+RUN bitcore create /home/bitcore/bitcore-node
 RUN cd /home/bitcore/bitcore-node
 
 
