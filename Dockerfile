@@ -8,7 +8,6 @@ RUN npm install -g github:bitpay/bitcore#v5.0.0-beta.44
 RUN npm install -g github:bitpay/insight-api#v5.0.0-beta.44
 RUN npm install -g github:bitpay/insight-ui#v5.0.0-beta.44
 RUN useradd -m -d /home/bitcore -s /bin/bash bitcore
-RUN chown -R bitcore:bitcore /home/bitcore
 
 USER bitcore
 
